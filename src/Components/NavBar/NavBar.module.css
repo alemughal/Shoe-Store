@@ -1,0 +1,46 @@
+.main {
+  text-align: center;
+  display: inline;
+  float: left;
+  top: 15%; 
+  margin-top: 20px;
+  margin-left: 150px;
+  font-size: 30px;
+}
+
+.nav {
+  text-align: center ;
+  /* background-color: #8a8a8a; */
+  height: 50px;
+  width: 100%;
+
+}
+
+.links {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: 500;
+  font-size: large;
+  font-size: 22px;
+
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 25px;
+
+}
+li {
+  text-align: center;
+  display: inline;
+}
+
+@media screen and (max-width : 770px) {
+  .main {
+    margin-left: 0;
+    font-size: 25px;
+  }
+}  

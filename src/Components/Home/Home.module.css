@@ -1,0 +1,52 @@
+.container {
+    margin: 150px 170px;
+}
+
+.home {
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.head {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+
+#hello:hover {
+    letter-spacing: 0.8em;
+    background-color: black;
+  }
+  
+#hello {
+    color: white;
+    text-decoration: none;
+}
+button {
+height: 4em;
+width: 15%;
+padding: 2em auto;
+margin: 1em auto;
+background-color: black;
+border: none;
+border-radius: 3px;
+text-transform: uppercase;
+letter-spacing: 0.5em;
+transition: all 0.2s cubic-bezier(.4,0,.2,1);
+margin-top: 80px;
+text-align: center;
+}
+  
+
+@media (max-width : 770px) {
+    .container{
+        width: 80% !important;
+        margin: 0 50px;
+    }
+    .home {
+        line-height: 20px;
+    }
+    button {
+        width: 45%;
+    }
+}
