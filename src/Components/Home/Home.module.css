@@ -23,7 +23,7 @@
     text-decoration: none;
 }
 button {
-height: 4em;
+height: 5em;
 width: 15%;
 padding: 2em auto;
 margin: 1em auto;
@@ -35,7 +35,16 @@ letter-spacing: 0.5em;
 transition: all 0.2s cubic-bezier(.4,0,.2,1);
 margin-top: 80px;
 text-align: center;
+line-height: 1.5em;                                                                                   
 }
+
+img {
+   margin-top: -50px;
+   margin-left: 40%;
+   position: absolute;
+}
+
+
   
 
 @media (max-width : 770px) {
@@ -47,6 +56,14 @@ text-align: center;
         line-height: 20px;
     }
     button {
-        width: 45%;
+        width: 80%;
+        display: inline-block;
+        text-align: center;
     }
+    img {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
 }

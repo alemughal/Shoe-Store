@@ -4,13 +4,12 @@
   float: left;
   top: 15%; 
   margin-top: 20px;
-  margin-left: 150px;
+  margin-left: 170px;
   font-size: 30px;
 }
 
 .nav {
   text-align: center ;
-  /* background-color: #8a8a8a; */
   height: 50px;
   width: 100%;
 
@@ -40,7 +39,7 @@ li {
 
 @media screen and (max-width : 770px) {
   .main {
-    margin-left: 0;
+    margin-left: 5px;
     font-size: 25px;
   }
 }  
