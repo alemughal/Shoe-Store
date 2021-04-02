@@ -9,7 +9,7 @@ function Home() {
     <div className={styles.container}>
       <div className={styles.pic}>
       </div>
-      <img src={HomePic} alt="Shoe-Pic" width="40%"/>
+      <img src={HomePic} className={styles.homePic} alt="Shoe-Pic" width="40%"/>
       <h2 className={styles.home} id={styles.heading}>NEW IN</h2>
       <h1 className={styles.head}>YEEZY BOOST <br /> SPLY-350</h1>
       <h2 className={styles.home}>Explore the new collections of sneaker</h2>
