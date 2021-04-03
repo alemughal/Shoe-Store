@@ -39,5 +39,6 @@ jobs:
       
     - name: Deploy to Surge
       run: surge ./build shoe-store-ali.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
-    - name: Deploy to Surge
-      run: surge ./build expense-tracker-alii.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+      
+      
+  
