@@ -16,7 +16,7 @@ function Product() {
                         <h2>{shoe.price}</h2>
                         <img src={shoe.img} alt="shoes" width="200px"/>
                         <br/>
-                        <button><Link to="/products" id={styles.btn}>Click</Link></button>
+                        <button><Link to={`/product/${keyName}`} id={styles.btn}>Details</Link></button>
                     </div>)
                 }
                 )}
